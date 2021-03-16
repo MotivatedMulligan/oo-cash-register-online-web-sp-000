@@ -27,7 +27,7 @@ end
 
 def void_last_transaction
     @total -= @last_transaction
-    @quantity.times do
+    @last_quantity.times do
       @items.pop()
     end
 end
