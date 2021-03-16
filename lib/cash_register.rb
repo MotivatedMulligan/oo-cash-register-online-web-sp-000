@@ -12,6 +12,7 @@ class CashRegister
     quantity.times do
         @items << item
   end
+  @last_quantity = quantity
   @last_transaction = price * quantity
   @total += @last_transaction
   end
@@ -30,5 +31,5 @@ def void_last_transaction
     @last_quantity.times do
       @items.pop()
     end
-end
+  end
 end
