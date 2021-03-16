@@ -32,18 +32,9 @@ def void_last_transaction
     end
 end
 end
-def total(total)
- total
-end
 
 
-def items
-  @@all
-end
-def void_last_transaction
-  self.
-end
 
 
-end
+
 end
